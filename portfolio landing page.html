@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* NAVBAR */
+header{
+    background:#333;
+    padding:15px 50px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#fff;
+}
+
+.logo h2{
+    font-size:22px;
+}
+.logo p{
+    font-size:12px;
+    color:#ccc;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:14px;
+}
+
+nav ul li a:hover{
+    color:#4da3ff;
+}
+
+/* HERO SECTION */
+.hero{
+    background:#555;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    padding:60px 50px;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.hero-text button{
+    padding:10px 20px;
+    background:#4da3ff;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.hero-text button:hover{
+    background:#1e7fe6;
+}
+
+.hero-img{
+    width:50%;
+    text-align:right;
+}
+
+.hero-img img{
+    width:80%;
+    border-radius:5px;
+}
+
+/* ABOUT SECTION */
+.about{
+    background:#fff;
+    padding:60px 50px;
+    display:flex;
+    gap:40px;
+}
+
+.about img{
+    width:300px;
+    border-radius:5px;
+}
+
+.about-content h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.about-content hr{
+    width:50px;
+    height:3px;
+    background:#4da3ff;
+    border:none;
+    margin-bottom:15px;
+}
+
+.about-content p{
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.about-content button{
+    padding:10px 20px;
+    background:#4da3ff;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+/* FOOTER */
+footer{
+    background:#333;
+    color:#ccc;
+    text-align:center;
+    padding:15px;
+    font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <h2>My Portfolio</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT ME</a></li>   
+                <li><a href="#">SKILL</a></li> 
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>SUDARSHAN PATIL</h1>
+        <p>
+           Beginner web developer with a strong interest in creating clean, responsive websites using HTML, CSS,  and JavaScript..
+        </p>
+    </div>
+
+    <div class="hero-img" >
+        <img src="image/sudarshan-ph__1_-removebg-preview.png" alt="Profile Image">
+    </div>
+</section>
+
+<section class="about">
+    <img src="image/sudarshan-ph__1_-removebg-preview.png" alt="About Image">
+
+    <div class="about-content">
+        <h2>ABOUT ME</h2>
+        <hr>
+        <p>
+            I am a beginner web developer with basic knowledge of HTML and CSS. I enjoy creating simple, clean, and responsive web pages and I am continuously learning new web technologies to improve my skills.
+        </p>
+        <p>
+            I am a passionate beginner web developer learning HTML and CSS. I enjoy designing web pages and experimenting with layouts, colors, and styling while working on personal projects to strengthen my frontend skills. 
+        </p>
+        <a href="resume/Sudarshan-Patil-Resume-.pdf" download>DOWNLOAD RESUME</button>
+    </div>
+</section>
+
+<footer>
+    © 2026 Online Portfolio. All Rights Reserved.
+</footer>
+
+</body>
+</html>
